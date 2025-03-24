@@ -15,7 +15,7 @@ git clone https://github.com/Kumarrahul78088/abx_exchange1.git
 ### Server Configuration
 1. Access the server folder:
 ```
-cd abx_exchange_server
+cd abx_exchange1/abx_exchange_server
 ```
 
 2. Launch the TCP server:
@@ -32,7 +32,7 @@ TCP server started on port 3000
 1. Launch a separate terminal instance
 2. Navigate to client directory:
 ```
-cd abx_exchange_client
+cd abx_exchange1/abx_exchange_client
 ```
 
 3. Build the client application:
@@ -42,7 +42,7 @@ g++ -std=c++11 abx_client.cpp -o abx_client -lws2_32
 
 4. Execute the compiled program:
 ```
-abx_client
+./abx_client
 ```
 
 ## Data Output
